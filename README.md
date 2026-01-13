@@ -29,9 +29,11 @@ The main purpose of the analysis is to calculate descriptive values for harvest 
 
 To run the calculations on Puhti, you need the following files in your working directory (e.g. /scratch/project..../)
 
-## Subdirectory called "rasterdata/". In this directory you fill have the country specific files downloaded from https://doi.org/10.5281/zenodo.13333034
+## Subdirectory called "rasterdata/".
+In this directory you fill have the country specific files downloaded from https://doi.org/10.5281/zenodo.13333034
 
-## R script called "laskentarutiini_kaikkimaat.R". This script includes definitions of all functions needed, packages to make the functions work and Global variables needed for the functions as well.
+## R script called "laskentarutiini_kaikkimaat.R".
+This script includes definitions of all functions needed, packages to make the functions work and Global variables needed for the functions as well.
 
 ### Global variables: 
 - COUNTRY_INFO is a dataframe of countries and the time window to be calculated. It is used by some of the functions to define the time window specifically for each country that is be calculated. Some of the countries have specified years that are same as in Suvanto et al. (2025) and some are filled from "rasterdata/" directory depending on what countries' data are downloaded.
@@ -86,7 +88,8 @@ Including:
 ## List of countries to be analysed in a text file called:
 countries.txt
 
-## The results are written to a .csv file defined in the main script (laskentarutiini_NBR_ja_freq.R). 
+## The results are written to a .csv file
+Defined in the main script (laskentarutiini_NBR_ja_freq.R). 
 Tulokset_lopullinen/
 
 # [Project 4: Spectral Matters](https://github.com/kupilata/Sprectal_Matters)
