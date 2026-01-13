@@ -116,7 +116,7 @@ The program has the following features:
 5. Calculate intensities: The intensity of peaks can be calculated. This is done with the trapz function from numpy. The use selects the interval by clicking on the figure. The result is printed somewhere inside the window. If there's no data in the program memory yet, the user is given an error message about it.
 6. Save figure: this feature allows the user to save an image of the current plot. The user uses a separate dialog for select a filename and destination for saving the figure. matplotlib provides the necessary features to do this.
 
-![Example plot of the data](examplefigure.png)
+![Example plot of the data](../Spectral_matters/examplefigure.png)
 
 ### About libraries
 The course provided a library that is built on top of TkInter, and offers a heavily simplified interface to some of its features through functions. The library's docstrings describe how to use it. The lirary's main program also has a short example of how to make a simple interface. THIS IS NOT INCLUDED IN THIS REPOSITORY
