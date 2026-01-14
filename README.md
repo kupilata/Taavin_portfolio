@@ -20,7 +20,18 @@ Data has been extracted from a few different databases or directly from partners
 ### Publications
 This dataset was published on Zenodo (https://zenodo.org/records/17519671)
 
-# [Project 2: Licor data cleaning](link)
+# [Project 2: Licor data cleaning](https://github.com/kupilata/Licor_data_cleaning)
+
+## Licor measurement data cleaning pipeline
+This repository showcases the codes that automate the data cleaning process. The repository does not include the folder structure or any data. This is meant for Luke's internal use only.
+
+### Instructions for user to use this pipeline.
+1. The user adds data file that is downloaded from Licor to a folder called "raw_data" and a filled fieldform excel file to a folder called "fieldforms".
+2. User runs DataCleaner.R from Rstudio for GUI or directly from command line.
+3. DataCleaner.R runs the actual data cleaning script from scripts/process_data.R
+4. process_data.R cleans raw data file according to the timestamps and remark info found in the field form excel file.
+5. Processed data is saved in folder called "processed_data".
+
 
 # [Project 3: EuropeanHarvestTask](https://github.com/kupilata/EuropeanHarvestsTask)
 
