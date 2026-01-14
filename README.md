@@ -1,5 +1,5 @@
 # Taavin_portfolio
-Data analysis portfolio
+This is my portfolio showcasing projects that I've worked on. My previous programming projects have focused on data analysis in R and Python. My interests in programming include automating data processing workflows.
 
 # [Project 1: HoliSoils soil respiration dataset](https://github.com/kupilata/HoliSoils_soil_respiration_dataset)
 
